@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>КомпТехПомощь — Ремонт компьютеров и ноутбуков</title>
+    <meta name="description" content="Профессиональный ремонт ПК, ноутбуков, настройка софта, сборка, чистка, апгрейд. Выезд по городу. Быстро, качественно, с гарантией.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div id="preloader">
+        <div class="loader-content">
+            <div class="loader-logo">КОМПТЕХПОМОЩЬ</div>
+            <div class="loader-bar"><div class="loader-fill"></div></div>
+        </div>
+    </div>
+
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="logo-icon">ПК</span>
+                КомпТехПомощь
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#services" class="nav-link">Услуги</a></li>
+                <li><a href="#prices" class="nav-link">Цены</a></li>
+                <li><a href="#about" class="nav-link">О нас</a></li>
+                <li><a href="#process" class="nav-link">Как работаем</a></li>
+                <li><a href="#reviews" class="nav-link">Отзывы</a></li>
+                <li><a href="#contact" class="nav-link nav-cta">Связаться</a></li>
+            </ul>
+            <div class="nav-toggle" id="navToggle"><span></span><span></span><span></span></div>
+        </div>
+    </nav>
+
+    <section class="hero" id="hero">
+        <div class="hero-bg-decor"></div>
+        <div class="hero-bg-decor-2"></div>
+        <div class="container hero-content">
+            <div class="hero-text" data-reveal>
+                <div class="hero-badge">🔧 Работаем с 2018 года</div>
+                <h1 class="hero-title">Ремонт <span>компьютеров</span> и ноутбуков</h1>
+                <p class="hero-subtitle">Диагностика бесплатно, выезд мастера по городу, гарантия на все работы до 12 месяцев. Быстро вернём технику к жизни.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">📞 Вызвать мастера</a>
+                    <a href="#prices" class="btn btn-secondary">💰 Посмотреть цены</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-num" data-count="2500">0</span>
+                        <span class="stat-label">Отремонтировано</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-num" data-count="98">0</span>
+                        <span class="stat-label">% довольных</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-num" data-count="12">0</span>
+                        <span class="stat-label">Месяцев гарантии</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-illustration" data-reveal>
+                <div class="hero-illus-box">
+                    <div class="hero-illus-icon">🖥️</div>
+                    <div class="hero-illus-title">Быстрая диагностика</div>
+                    <div class="hero-illus-items">
+                        <div class="hero-illus-item"><span class="check">✓</span> Бесплатная диагностика</div>
+                        <div class="hero-illus-item"><span class="check">✓</span> Прозрачная смета</div>
+                        <div class="hero-illus-item"><span class="check">✓</span> Гарантия до 12 мес</div>
+                        <div class="hero-illus-item"><span class="check">✓</span> Выезд за 30–60 мин</div>
+                    </div>
+                    <div class="hero-illus-bar"><div></div><div></div><div></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services section" id="services">
+        <div class="container">
+            <div class="section-header" data-reveal>
+                <span class="section-badge">Наши услуги</span>
+                <h2 class="section-title">Что мы делаем</h2>
+                <p class="section-desc">Полный спектр услуг по ремонту и обслуживанию компьютерной техники</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-reveal>
+                    <div class="s-card-icon">🖥️</div>
+                    <h3 class="s-card-title">Ремонт ПК</h3>
+                    <p class="s-card-desc">Замена комплектующих, ремонт блока питания, материнской платы, видеокарты. Решение любых неисправностей.</p>
+                    <span class="s-card-price">от 500 ₽</span>
+                </div>
+                <div class="service-card" data-reveal>
+                    <div class="s-card-icon">💻</div>
+                    <h3 class="s-card-title">Ремонт ноутбуков</h3>
+                    <p class="s-card-desc">Замена матрицы, клавиатуры, шлейфа, термопасты. Ремонт BGA-чипов, восстановление после залива.</p>
+                    <span class="s-card-price">от 1000 ₽</span>
+                </div>
+                <div class="service-card" data-reveal>
+                    <div class="s-card-icon">⚙️</div>
+                    <h3 class="s-card-title">Сборка ПК</h3>
+                    <p class="s-card-desc">Сборка компьютера под любые задачи: игровой, рабочий, домашний. Подбор совместимых компонентов.</p>
+                    <span class="s-card-price">от 5000 ₽</span>
+                </div>
+                <div class="service-card" data-reveal>
+                    <div class="s-card-icon">🧹</div>
+                    <h3 class="s-card-title">Чистка и обслуживание</h3>
+                    <p class="s-card-desc">Чистка от пыли, замена термопасты, профилактика перегрева. Продлевает срок службы техники.</p>
+                    <span class="s-card-price">от 800 ₽</span>
+                </div>
+                <div class="service-card" data-reveal>
+                    <div class="s-card-icon">📈</div>
+                    <h3 class="s-card-title">Апгрейд</h3>
+                    <p class="s-card-desc">Установка SSD, добавление оперативной памяти, замена процессора, видеокарты. Ускорение старого ПК.</p>
+                    <span class="s-card-price">от 1000 ₽</span>
+                </div>
+                <div class="service-card" data-reveal>
+                    <div class="s-card-icon">🔧</div>
+                    <h3 class="s-card-title">Настройка ПО</h3>
+                    <p class="s-card-desc">Установка Windows, драйверов, антивируса, офисных программ. Настройка Wi-Fi, удаление вирусов.</p>
+                    <span class="s-card-price">от 500 ₽</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="price-section section" id="prices">
+        <div class="container">
+            <div class="section-header" data-reveal>
+                <span class="section-badge">Цены</span>
+                <h2 class="section-title">Прайс-лист</h2>
+                <p class="section-desc">Прозрачные цены без скрытых платежей. Точная стоимость после диагностики.</p>
+            </div>
+            <div data-reveal>
+                <table class="price-table">
+                    <thead>
+                        <tr><th>Услуга</th><th>Описание</th><th class="price-col">Цена</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Диагностика</td><td>Бесплатная диагностика неисправности</td><td class="price-col">Бесплатно</td></tr>
+                        <tr><td>Ремонт ПК</td><td>Замена/ремонт комплектующих настольного ПК</td><td class="price-col">от 500 ₽</td></tr>
+                        <tr><td>Ремонт ноутбука</td><td>Любая сложность: от клавиатуры до BGA</td><td class="price-col">от 1000 ₽</td></tr>
+                        <tr><td>Сборка ПК</td><td>Сборка с подбором компонентов</td><td class="price-col">от 5000 ₽</td></tr>
+                        <tr><td>Чистка + термопаста</td><td>Полная чистка от пыли, замена термопасты</td><td class="price-col">800–1500 ₽</td></tr>
+                        <tr><td>Установка SSD/HDD</td><td>Установка накопителя + перенос системы</td><td class="price-col">от 1000 ₽</td></tr>
+                        <tr><td>Установка Windows</td><td>Чистая установка + драйверы + базовый софт</td><td class="price-col">от 1500 ₽</td></tr>
+                        <tr><td>Удаление вирусов</td><td>Чистка от вредоносного ПО</td><td class="price-col">от 500 ₽</td></tr>
+                        <tr><td>Выезд мастера</td><td>Выезд по городу (в пределах МКАД)</td><td class="price-col">Бесплатно</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section class="about section" id="about">
+        <div class="container">
+            <div class="section-header" data-reveal>
+                <span class="section-badge">О нас</span>
+                <h2 class="section-title">Почему выбирают нас</h2>
+            </div>
+            <div class="about-grid">
+                <div class="stats-box" data-reveal>
+                    <div class="stats-box-item"><span class="num">2500+</span><span class="lbl">Успешных ремонтов</span></div>
+                    <div class="stats-box-item"><span class="num">98%</span><span class="lbl">Довольных клиентов</span></div>
+                    <div class="stats-box-item"><span class="num">12</span><span class="lbl">Месяцев гарантии</span></div>
+                    <div class="stats-box-item"><span class="num">30</span><span class="lbl">Минут — средний выезд</span></div>
+                </div>
+                <div class="about-features" data-reveal>
+                    <div class="feature-item"><div class="feature-icon">🔍</div><div><h3>Бесплатная диагностика</h3><p>Определяем причину поломки бесплатно. Вы платите только за работу.</p></div></div>
+                    <div class="feature-item"><div class="feature-icon">🛡️</div><div><h3>Гарантия до 12 месяцев</h3><p>На все работы даём письменную гарантию. Если проблема вернётся — починим бесплатно.</p></div></div>
+                    <div class="feature-item"><div class="feature-icon">🚗</div><div><h3>Выезд по городу</h3><p>Мастер приедет к вам домой или в офис за 30–60 минут. Бесплатный выезд.</p></div></div>
+                    <div class="feature-item"><div class="feature-icon">⚡</div><div><h3>Быстро и честно</h3><p>Большинство поломок устраняем за 1 день. Предупреждаем о сложностях до начала работ.</p></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="process section" id="process">
+        <div class="container">
+            <div class="section-header" data-reveal>
+                <span class="section-badge">Как мы работаем</span>
+                <h2 class="section-title">Процесс работы</h2>
+                <p class="section-desc">От звонка до готового устройства — 4 простых шага</p>
+            </div>
+            <div class="process-grid">
+                <div class="process-step" data-reveal><div class="process-num">1</div><h3>Звонок или заявка</h3><p>Оставляете заявку на сайте или звоните — мы принимаем заказ</p></div>
+                <div class="process-step" data-reveal><div class="process-num">2</div><h3>Выезд мастера</h3><p>Мастер приезжает к вам с оборудованием для диагностики — бесплатно</p></div>
+                <div class="process-step" data-reveal><div class="process-num">3</div><h3>Ремонт</h3><p>Устраняем поломку на месте или забираем в мастерскую</p></div>
+                <div class="process-step" data-reveal><div class="process-num">4</div><h3>Гарантия</h3><p>Вы получаете устройство с гарантией. Мы остаёмся на связи</p></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials section" id="reviews">
+        <div class="container">
+            <div class="section-header" data-reveal>
+                <span class="section-badge">Отзывы</span>
+                <h2 class="section-title">Что говорят клиенты</h2>
+            </div>
+            <div class="testimonial-grid">
+                <div class="t-card" data-reveal>
+                    <div class="t-stars">★★★★★</div>
+                    <p class="t-text">«Ноутбук перегревался и выключался. Почистили, заменили термопасту — работает как новый. Мастер приехал через час. Спасибо!»</p>
+                    <div class="t-author"><div class="t-avatar">А</div><div><div class="t-name">Алексей</div><div class="t-role">Ремонт ноутбука</div></div></div>
+                </div>
+                <div class="t-card" data-reveal>
+                    <div class="t-stars">★★★★★</div>
+                    <p class="t-text">«Помогли с апгрейдом старого ПК — поставили SSD и добавили оперативку. Компьютер летает! Цена порадовала.»</p>
+                    <div class="t-author"><div class="t-avatar">Е</div><div><div class="t-name">Елена</div><div class="t-role">Апгрейд ПК</div></div></div>
+                </div>
+                <div class="t-card" data-reveal>
+                    <div class="t-stars">★★★★★</div>
+                    <p class="t-text">«Собрали игровой ПК под бюджет. Сами подобрали компоненты, собрали, настроили. Всё работает идеально.»</p>
+                    <div class="t-author"><div class="t-avatar">М</div><div><div class="t-name">Михаил</div><div class="t-role">Сборка ПК</div></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta section" id="contact">
+        <div class="container">
+            <div class="cta-content" data-reveal>
+                <span class="section-badge" style="background:rgba(255,255,255,0.15);color:#fff;border-color:rgba(255,255,255,0.3);">Свяжитесь с нами</span>
+                <h2 class="cta-title">Нужна помощь с компьютером?</h2>
+                <p class="cta-text">Оставьте заявку — мы перезвоним в течение 5 минут и подберём удобное время для выезда мастера</p>
+                <div class="cta-buttons">
+                    <a href="tel:+892****5749" class="btn btn-primary">📞 8 (929) 547-57-49</a>
+                    <a href="#" class="btn btn-secondary" onclick="alert('Спасибо! Мы свяжемся с вами в ближайшее время.');return false;">✉️ Заказать звонок</a>
+                </div>
+                <a href="tel:+892****5749" class="cta-phone">8 (929) 547-57-49</a>
+                <p style="margin-top:12px;font-size:0.9rem;opacity:0.8;">📱 Работаем ежедневно 9:00–21:00</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="footer-logo">КомпТехПомощь</div>
+                    <p>Профессиональный ремонт компьютеров и ноутбуков. Работаем с 2018 года. Гарантия до 12 месяцев.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Услуги</h4>
+                    <ul>
+                        <li><a href="#services">Ремонт ПК</a></li>
+                        <li><a href="#services">Ремонт ноутбуков</a></li>
+                        <li><a href="#services">Сборка ПК</a></li>
+                        <li><a href="#services">Чистка и обслуживание</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Информация</h4>
+                    <ul>
+                        <li><a href="#about">О нас</a></li>
+                        <li><a href="#prices">Цены</a></li>
+                        <li><a href="#reviews">Отзывы</a></li>
+                        <li><a href="#process">Как работаем</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Контакты</h4>
+                    <p>8 (929) 547-57-49</p>
+                    <p>info@comptech.ru</p>
+                    <p>Москва, ремонт с выездом</p>
+                    <p style="margin-top:8px;font-size:0.85rem;color:rgba(255,255,255,0.5);">Ежедневно 9:00–21:00</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 КомпТехПомощь. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+    (function() {
+        setTimeout(function() {
+            document.getElementById('preloader').classList.add('hidden');
+        }, 1500);
+
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', function() {
+            if (window.scrollY > 50) navbar.classList.add('scrolled');
+            else navbar.classList.remove('scrolled');
+        });
+
+        const navToggle = document.getElementById('navToggle');
+        const navLinks = document.getElementById('navLinks');
+        navToggle.addEventListener('click', function() {
+            this.classList.toggle('active');
+            navLinks.classList.toggle('open');
+        });
+        navLinks.querySelectorAll('a').forEach(function(link) {
+            link.addEventListener('click', function() {
+                navToggle.classList.remove('active');
+                navLinks.classList.remove('open');
+            });
+        });
+
+        const revealElements = document.querySelectorAll('[data-reveal]');
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(function(entry) {
+                if (entry.isIntersecting) entry.target.classList.add('visible');
+            });
+        }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+        revealElements.forEach(function(el) {
+            observer.observe(el);
+            if (el.getBoundingClientRect().top < window.innerHeight) el.classList.add('visible');
+        });
+
+        const counters = document.querySelectorAll('[data-count]');
+        const counterObserver = new IntersectionObserver(function(entries) {
+            entries.forEach(function(entry) {
+                if (entry.isIntersecting) {
+                    const target = parseInt(entry.target.dataset.count);
+                    const step = Math.max(1, Math.floor(target / 30));
+                    let current = 0;
+                    const timer = setInterval(function() {
+                        current += step;
+                        if (current >= target) {
+                            entry.target.textContent = target + (target === 98 ? '%' : '+');
+                            clearInterval(timer);
+                        } else entry.target.textContent = current;
+                    }, 1500 / (target / step));
+                    counterObserver.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.5 });
+        counters.forEach(function(el) { counterObserver.observe(el); });
+    })();
+    </script>
+</body>
+</html>
